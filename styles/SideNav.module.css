@@ -1,0 +1,60 @@
+.aside {
+  border-right: 1px solid rgb(233, 233, 233);
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem 0;
+  display: flex;
+  width: 100px;
+}
+
+.header {
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  cursor: pointer;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+}
+.header:hover {
+  background-color: rgb(206, 200, 200);
+}
+
+.nav {
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav li {
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+
+}
+.nav li.active, .nav li:hover {
+  background-color: rgb(191, 222, 211);
+  border-radius: 1rem;
+  box-shadow: 2px 2px 5px gray;
+}
+
+.grayCircle {
+  background-color: gainsboro;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+}
+.grayCircle:hover {
+  background-color: rgb(206, 200, 200);
+}
